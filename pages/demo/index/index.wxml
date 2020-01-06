@@ -1,0 +1,22 @@
+<!--pages/demo/index/index.wxml-->
+<scroll-view scroll-y class="scrollPage">
+<view class="bg-img bg-mask padding-tb-xl" style="background-image: url('https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg');height: 414rpx;">
+  <view class="padding-xl text-white">
+    <view class="padding-xs text-title">
+      小程序开发框架
+    </view>
+    <view class="padding-xs">
+      XCX Development FrameWork.
+    </view>
+  </view>
+</view>
+<view class='margin-top-space'></view>
+<view class='nav-list'>
+    <navigator open-type="navigate" hover-class='none' url="/pages/demo/{{item.name}}/{{item.name}}" class="nav-li bg-{{item.color}}" wx:for="{{elements}}" wx:key>
+     <!-- <navigator open-type="navigate" hover-class='none' url="/pages/demo/loginA/loginA" class="nav-li bg-{{item.color}}" wx:for="{{elements}}" wx:key> -->
+      <view class="nav-title">{{item.title}}</view>
+      <view class="nav-name">{{item.name}}</view>
+      <text class='cuIcon-{{item.icon}}'></text>
+    </navigator>
+  </view>
+</scroll-view>

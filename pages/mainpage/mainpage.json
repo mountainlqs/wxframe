@@ -1,0 +1,40 @@
+{
+  "tabBar": {
+    "color": "#9B9DB1",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "",
+        "iconPath": "../../images/shouye.png",
+        "selectedIconPath": "../../images/shouye2.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "",
+        "iconPath": "../../images/daiban.png",
+        "selectedIconPath": "../../images/daiban2.png",
+        "text": "待办"
+      },
+      {
+        "pagePath": "",
+        "iconPath": "../../images/jianxiu.png",
+        "selectedIconPath": "../../images/jianxiu2.png",
+        "text": "检修"
+      },
+      {
+        "pagePath": "",
+        "iconPath": "../../images/shezhi.png",
+        "selectedIconPath": "../../images/shezhi2.png",
+        "text": "设置"
+      },
+      {
+        "pagePath": "",
+        "iconPath": "../../images/caidan.png",
+        "selectedIconPath": "../../images/caidan2.png",
+        "text": "菜单"
+      }
+    ]
+  }
+}

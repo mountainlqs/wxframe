@@ -1,0 +1,23 @@
+<image class="play-bg" mode="aspectFill" src="../../images/loginbg.png"></image>
+
+
+
+<view class="form-common">
+  <image class="logo" src="../../images/logo.png" mode="aspectFit" />
+  <image class="biaoti" src="../../images/biaoti.png" mode="aspectFit" />
+
+  <!-- <form bindsubmit="login"> -->
+    <view class="formc-cnt">
+      <image class="uname" src="../../images/uname.png" mode="aspectFit" />
+      <input bindinput="textinput" data-type="1" placeholder="请输入账号" type="text" />
+    </view>
+    <view class="formc-cnt">
+      <image class="uname" src="../../images/psw.png" mode="aspectFit" />
+      <input bindinput="textinput" data-type="2" type="text" placeholder="请输入密码" password="true" />
+    </view>
+    <view>
+      <image bindtap="login" class="biaoti" src="../../images/loginbtn.png" mode="aspectFit" />
+    </view>
+  <!-- </form> -->
+</view>
+<image class="czlogo" src="../../images/czlogo.png" mode="aspectFit" />

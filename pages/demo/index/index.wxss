@@ -1,0 +1,7 @@
+/* pages/demo/index/index.wxss */
+.text-title {
+	font-size: 48rpx;
+}
+.margin-top-space{
+  margin-top: 5%;
+}

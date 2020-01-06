@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/demo/index/index",
+    "pages/demo/loginA/loginA",    
+    "pages/recommend/index",
+    "pages/mainpage/mainpage",
+    "pages/play/index",
+    "pages/my/index"
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#bb2c08",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#ffffff",
+    "borderStyle": "white",
+    "backgroundColor": "#e54d42",
+    "list": [
+      {
+        "pagePath": "pages/demo/index/index",
+        "iconPath": "images/shouye.png",
+        "selectedIconPath": "images/shouye-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/recommend/index",
+        "iconPath": "images/shezhi.png",
+        "selectedIconPath": "images/shezhi-active.png",
+        "text": "设置"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cu-custom": "/components/cu-custom/cu-custom"
+  },
+  "sitemapLocation": "sitemap.json"
+}

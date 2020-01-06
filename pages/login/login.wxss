@@ -1,0 +1,39 @@
+.form-common{padding: 48rpx;}
+.logo{height: 100px;
+      width: 100px;
+      margin-top:60rpx;
+      margin-left:200rpx;}
+.biaoti{width:650rpx;
+        height:150rpx;
+        margin-top:60rpx;}
+.uname{height: 60rpx;
+	width: 60rpx;
+
+}
+.formc-cnt{padding: 16rpx 0; display: flex;border-bottom: 1px solid #eee;margin: 16rpx 0}
+.form-common button,.btnhover{margin-top: 48rpx;display: block;background-color: #d43c33;height: 2.4em;padding: 0;line-height: 2.4;border-radius: 5rpx;
+font-size: 32rpx}
+.formc-cnt text{text-align: left}
+.formc-cnt input{flex: 1;display: block}
+.bg{display: block;  min-height: 100%; }
+.play-bg {
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.czlogo{
+  width:550rpx;
+        height:100rpx;
+        margin-left:80rpx;
+        margin-top:30rpx;
+
+}
+
+/* page {  
+  display: block;  
+  min-height: 100%;  
+  background-color: red;  
+}   */
